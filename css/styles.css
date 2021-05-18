@@ -1,10 +1,55 @@
+/* VARIABLES */
+:root {
+  --pretty-color: #ff6c00;
+  --while-color: #ffffff;
+  --main-font: 'Roboto', sans-serif;
+  --accent-font: 'Raleway', sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
 body {
-  font-family: Roboto, Raleway, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   background-color: rgb(255, 255, 255);
+
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em; 
+  color: #000000 
+}
+
+.container {
   width: 1600px;
+  margin: 0 auto;
+}
+
+.navigation {
+  
+}
+.eadress {
+
+}
+
+.faceScreen {
+
+}
+.features {
+
 }
