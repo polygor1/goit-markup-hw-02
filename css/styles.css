@@ -1,10 +1,181 @@
+/* VARIABLES */
+:root {
+  --touch-color: #2196f3;
+  --page-color: #ffffff;
+  --title-color: #212121;
+  --regular-color: #757575;
+  --face-color: #fff;
+  --footer-color: #fff;
+  --background-face-color: #2f303a;
+  --background-footer-color: #2f303a;
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body {
-  font-family: Roboto, Raleway, sans-serif;
-  background-color: rgb(255, 255, 255);
-  width: 1600px;
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1,
+h3 {
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  color: var(--title-color);
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--page-color);
+  list-style: none;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--face-color);
+  background: #2196f3;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button:hover {
+  background-color: var(--pretty-color);
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 1923;
+  letter-spacing: 0.03em;
+  /* color: #000000  */
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navigation,
+.eadress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 1428;
+  letter-spacing: 0.02em;
+}
+
+.navigation {
+  color: var(--title-color);
+}
+.navigation :hover {
+  color: var(--touch-color);
+}
+
+.eadress {
+  color: var (var(--regular-color));
+}
+.eadress :hover {
+  color: var(--touch-color);
+}
+.faceScreen {
+  background: var(--background-face-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--page-color);
+}
+
+.features {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--regular-color);
+}
+.names,
+.metier {
+  font-size: 16px;
+  line-height: 1, 1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.names {
+  font-weight: 500;
+  color: var (var(--title-color));
+}
+
+.metier {
+  /* font-style: normal;
+font-weight: normal; */
+  color: var (--regular-color);
+}
+
+footer {
+  background-color: var(--background-footer-color);
+  color: var(--footer-color);
+}
+address {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-color);
+}
+address a {
+  color: var(--regular-color);
+}
+address a:hover,
+address a:focus,
+nav a:hover,
+nav a:focus {
+  color: var(--pretty-color);
+}
+/* HEADER STYLES */
+.header {
+  background: black;
+  color: var(--while-color);
+}
+/* эффект наведения курсора мыши */
+/* .navList a:hover {
+  color: var(--pretty-color);
+} */
+/* эффект фокусировки, когда нажали и держим, TAB */
+/* .navList a:focus {
+  color: chartreuse;
+} */
+/* а теперь то же самое, только через перечисление селекторов */
+.navList a:hover,
+.navList a:focus,
+.mediaList a:hover,
+.mediaList a:focus {
+  color: var(--pretty-color);
+}
+
+/* .navList a:active {
+  color: aqua;
+  font-size: 28px;
+} */
+
+/* HEADER STYLES */
