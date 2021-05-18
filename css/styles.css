@@ -20,11 +20,22 @@ text-decoration: none;
 color: inherit;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
+h1, h3 {
+  text-transform: uppercase;
+}
+
+h2, h3 {
+  color: var(--title-color);
+}
+
 body {
   font-family: var(--main-font);
   background-color: var(--page-color);
   list-style: none;
-
 }
 
 .button {
@@ -50,22 +61,22 @@ body {
 .container {
   width: 1600px;
   margin: 0 auto;
- 
+  text-align: center;
 }
 
-.navigation {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1,1428;
-  letter-spacing: 0.02em;
-  color: var(--title-color);
-}
-
+.navigation,
 .eadress {
   font-weight: 500;
   font-size: 14px;
   line-height: 1,1428;
   letter-spacing: 0.02em;
+}
+
+.navigation {
+  color: var(--title-color);
+}
+
+.eadress {
   color: var (var(--regular-color));
   }
 
@@ -74,13 +85,30 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: var(--page-color);
-
 }
 
 .features {
-
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--regular-color);
 }
+.names, .metier {
+  font-size: 16px;
+  line-height: 1,1875;
+  text-align: center;
+  letter-spacing: 0.03em;  
+}
+.names {
+  font-weight: 500;
+  color: var (var(--title-color));
+}
+
+.metier {
+  /* font-style: normal;
+font-weight: normal; */
+  color: var (--regular-color);
+}
+
