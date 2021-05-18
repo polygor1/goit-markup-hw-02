@@ -4,7 +4,10 @@
   --page-color: #ffffff;
   --title-color: #212121;
   --regular-color: #757575;
+  --face-color: #fff;
+  --footer-color: #fff;
   --background-face-color: #2F303A;
+  --background-footer-color: #2F303A;
   --main-font: 'Roboto', sans-serif;
   --logo-font: 'Raleway', sans-serif;
 }
@@ -46,7 +49,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--page-color);
+  color: var(--face-color);
 }
 
 .logo {
@@ -55,7 +58,7 @@ body {
   font-size: 26px;
   line-height: 1,1923;
   letter-spacing: 0.03em; 
-  color: #000000 
+  /* color: #000000  */
 }
 
 .container {
@@ -78,7 +81,7 @@ body {
 
 .eadress {
   color: var (var(--regular-color));
-  }
+}
 
 .faceScreen {
   background: var(--background-face-color);
@@ -112,3 +115,15 @@ font-weight: normal; */
   color: var (--regular-color);
 }
 
+footer {
+  background-color: var(--background-footer-color);
+  color: var(--footer-color);
+}
+address {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  
+}
