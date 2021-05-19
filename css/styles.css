@@ -122,12 +122,10 @@ body {
 }
 .names {
   font-weight: 500;
-  color: var (var(--title-color));
+  color: var (--title-color);
 }
 
 .metier {
-  /* font-style: normal;
-font-weight: normal; */
   color: var (--regular-color);
 }
 
@@ -146,36 +144,10 @@ address {
 address a {
   color: var(--regular-color);
 }
+
 address a:hover,
 address a:focus,
 nav a:hover,
 nav a:focus {
-  color: var(--pretty-color);
+  color: var(--touch-color);
 }
-/* HEADER STYLES */
-.header {
-  background: black;
-  color: var(--while-color);
-}
-/* эффект наведения курсора мыши */
-/* .navList a:hover {
-  color: var(--pretty-color);
-} */
-/* эффект фокусировки, когда нажали и держим, TAB */
-/* .navList a:focus {
-  color: chartreuse;
-} */
-/* а теперь то же самое, только через перечисление селекторов */
-.navList a:hover,
-.navList a:focus,
-.mediaList a:hover,
-.mediaList a:focus {
-  color: var(--pretty-color);
-}
-
-/* .navList a:active {
-  color: aqua;
-  font-size: 28px;
-} */
-
-/* HEADER STYLES */
