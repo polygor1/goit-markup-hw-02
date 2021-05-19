@@ -15,7 +15,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 
 a {
@@ -45,10 +45,11 @@ body {
 }
 
 .button {
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -69,6 +70,9 @@ body {
   line-height: 1, 1923;
   letter-spacing: 0.03em;
   /* color: #000000  */
+}
+.logoweb {
+  color: #2196f3;
 }
 
 .container {
