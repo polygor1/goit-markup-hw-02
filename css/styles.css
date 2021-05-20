@@ -1,7 +1,6 @@
 /* VARIABLES */
 :root {
   --touch-color: #2196f3;
-  /* --touch-color: #f35d21; */
   --filter-color: #f5f4fa;
   --page-color: #ffffff;
   --title-color: #212121;
@@ -118,7 +117,6 @@ body {
   font-size: 26px;
   line-height: 1.1923;
   letter-spacing: 0.03em;
-  /* color: #000000  */
 }
 .logoweb {
   color: #2196f3;
