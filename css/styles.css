@@ -1,6 +1,7 @@
 /* VARIABLES */
 :root {
   --touch-color: #2196f3;
+  /* --touch-color: #f35d21; */
   --filter-color: #f5f4fa;
   --page-color: #ffffff;
   --title-color: #212121;
@@ -68,7 +69,8 @@ body {
 .focus-page {
   color: var(--touch-color);
 }
-.sign-link {
+.sign-link,
+.button-filter {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -81,27 +83,29 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.sign-link:hover,
-.sign-link:focus {
+.sign-link:hover
+/* .sign-link:focus  */ {
   background-color: var(--touch-color);
+  color: aqua;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
 }
 
 .button-filter {
-  font-family: inherit;
+  /* font-family: inherit; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
-  display: flex;
+  /* display: flex; */
   letter-spacing: 0.03em;
   color: var(--title-color);
   background: var(--filter-color);
-  padding: 10px 32px;
-  border: 0 solid;
-  border-radius: 4px;
+  /* padding: 10px 32px; */
+  /* border: 0 solid; */
+  /* border-radius: 4px; */
 }
-.button-filter :hover,
-.button-filter :focus {
+.button-filter :hover
+/* ,
+.button-filter :focus  */ {
   background-color: var(--touch-color);
   color: var(--face-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
