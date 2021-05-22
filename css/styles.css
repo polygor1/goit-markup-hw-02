@@ -23,6 +23,7 @@
 a {
   color: inherit;
 }
+
 h1 {
   font-style: normal;
   font-weight: 900;
@@ -44,12 +45,6 @@ h3 {
   line-height: 1.134;
   letter-spacing: 0.03em;
 }
-h4 {
-  font-style: normal;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
 
 h1,
 h2 {
@@ -60,8 +55,7 @@ h3 {
   text-transform: uppercase;
 }
 h2,
-h3,
-h4 {
+h3 {
   font-weight: 700;
   color: var(--title-color);
 }
@@ -89,7 +83,16 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.portfolio-text {
+
+.portfolio {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.portfolio p {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -97,6 +100,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--regular-color);
 }
+
 .focus-page {
   color: var(--touch-color);
 }
